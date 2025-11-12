@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-11T17:18:38 IST" name="Suite" finished-at="2025-11-11T17:19:19 IST" duration-ms="41495">
+    <groups>
+      <group name="regression">
+        <method signature="MavenExample.loginInvalidCredentials()[pri:0, instance:package1.MavenExample@7f552bd3]" name="loginInvalidCredentials" class="package1.MavenExample"/>
+        <method signature="MavenExample.loginValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:package1.MavenExample@7f552bd3]" name="loginValidCredentials" class="package1.MavenExample"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="MavenExample.loginValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:package1.MavenExample@7f552bd3]" name="loginValidCredentials" class="package1.MavenExample"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-11-11T17:18:38 IST" name="Test" finished-at="2025-11-11T17:19:19 IST" duration-ms="41495">
+      <class name="package1.MavenExample">
+        <test-method is-config="true" signature="configureDriverPath()[pri:0, instance:package1.MavenExample@7f552bd3]" started-at="2025-11-11T17:18:32 IST" name="configureDriverPath" finished-at="2025-11-11T17:18:38 IST" duration-ms="5354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureDriverPath -->
+        <test-method is-config="true" signature="setBrowserAndWaits()[pri:0, instance:package1.MavenExample@7f552bd3]" started-at="2025-11-11T17:18:38 IST" name="setBrowserAndWaits" finished-at="2025-11-11T17:18:44 IST" duration-ms="5961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowserAndWaits -->
+        <test-method is-config="true" signature="launchAppUrl()[pri:0, instance:package1.MavenExample@7f552bd3]" started-at="2025-11-11T17:18:44 IST" name="launchAppUrl" finished-at="2025-11-11T17:18:47 IST" duration-ms="3354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAppUrl -->
+        <test-method is-config="true" signature="pageRefresh()[pri:0, instance:package1.MavenExample@7f552bd3]" started-at="2025-11-11T17:18:47 IST" name="pageRefresh" finished-at="2025-11-11T17:18:48 IST" duration-ms="732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageRefresh -->
+        <test-method signature="loginInvalidCredentials()[pri:0, instance:package1.MavenExample@7f552bd3]" started-at="2025-11-11T17:18:48 IST" name="loginInvalidCredentials" finished-at="2025-11-11T17:18:55 IST" duration-ms="6882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidCredentials -->
+        <test-method is-config="true" signature="logoutApp()[pri:0, instance:package1.MavenExample@7f552bd3]" started-at="2025-11-11T17:18:55 IST" name="logoutApp" finished-at="2025-11-11T17:19:05 IST" duration-ms="10078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutApp -->
+        <test-method is-config="true" signature="pageRefresh()[pri:0, instance:package1.MavenExample@7f552bd3]" started-at="2025-11-11T17:19:05 IST" name="pageRefresh" finished-at="2025-11-11T17:19:06 IST" duration-ms="859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageRefresh -->
+        <test-method signature="loginValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:package1.MavenExample@7f552bd3]" started-at="2025-11-11T17:19:06 IST" name="loginValidCredentials" finished-at="2025-11-11T17:19:12 IST" duration-ms="5930" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidCredentials -->
+        <test-method is-config="true" signature="logoutApp()[pri:0, instance:package1.MavenExample@7f552bd3]" started-at="2025-11-11T17:19:12 IST" name="logoutApp" finished-at="2025-11-11T17:19:13 IST" duration-ms="1418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutApp -->
+        <test-method is-config="true" signature="deleteCookies()[pri:0, instance:package1.MavenExample@7f552bd3]" started-at="2025-11-11T17:19:13 IST" name="deleteCookies" finished-at="2025-11-11T17:19:13 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCookies -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:package1.MavenExample@7f552bd3]" started-at="2025-11-11T17:19:13 IST" name="quitDriver" finished-at="2025-11-11T17:19:19 IST" duration-ms="5915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="finalMethod()[pri:0, instance:package1.MavenExample@7f552bd3]" started-at="2025-11-11T17:19:19 IST" name="finalMethod" finished-at="2025-11-11T17:19:19 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalMethod -->
+      </class> <!-- package1.MavenExample -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
